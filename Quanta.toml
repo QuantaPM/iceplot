@@ -1,0 +1,6 @@
+Name = "ICEPLOT Application"
+Description = "Application that can draw a simple graph"
+Authors = ["jbruws"]
+Dependencies = ["rust"]
+AfterInstallScript = "cargo build --release"
+RunApplication = ["cargo run "]
